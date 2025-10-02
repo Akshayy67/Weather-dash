@@ -1,0 +1,58 @@
+.favorite-cities {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.favorite-cities h3 {
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.favorite-item {
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,0.2);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.city-button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.city-button:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.remove-button {
+  background: rgba(231, 76, 60, 0.8);
+  border: none;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-button:hover {
+  background: rgba(231, 76, 60, 1);
+}
